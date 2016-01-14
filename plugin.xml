@@ -3,7 +3,7 @@
             id="cordova-plugin-launchmaps" version="0.0.1">
         <name>LaunchMaps</name>
         <description>Plugin for launching maps app on different platforms</description>
-        <license>MIT/license>
+        <license>MIT</license>
         <keywords>cordova,launchmaps, maps, intent</keywords>
         <js-module src="www/launchmaps.js" name="launchmaps">
             <clobbers target="launchmaps" />
