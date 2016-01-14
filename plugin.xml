@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="br.com.wexdigital.plugins.launchmaps" version="1.0.0">
+            id="cordova-plugin-launchmaps" version="0.0.1">
         <name>LaunchMaps</name>
         <description>Plugin for launching maps app on different platforms</description>
-        <license>Apache 2.0</license>
+        <license>MIT/license>
         <keywords>cordova,launchmaps, maps, intent</keywords>
         <js-module src="www/launchmaps.js" name="launchmaps">
             <clobbers target="launchmaps" />
@@ -20,4 +20,3 @@
 		<source-file src="src/android/LaunchMaps.java" target-dir="src/br/com/wexdigital/plugins/launchmaps" />
 	</platform>
 </plugin>
-
